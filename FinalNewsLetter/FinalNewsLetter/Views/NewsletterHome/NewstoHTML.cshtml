@@ -1,0 +1,112 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/AchivmentBox.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/EventBox.css" rel="stylesheet" type="text/css" />
+    <title>SDS NewsLetter</title>
+</head>
+<body>
+    <br />
+    <div class="container-fluid" style="width:800px;">
+        <div class="row">
+            <div class="col-xs-8">
+                <div class="row">
+                    <div>
+                        <img src="~/Content/SDS-logo (1).png" style="position:center; width:400px; height:80px;" />
+                    </div>
+                    <br />
+                    <div class="col-xs-12 achviClass" id="AchivBoxes">
+                        <div class="DarkGrayAchivments padding" id="achivment">
+                            <label style="font-family:'Tw Cen MT'; font-size:18px;color:white; font-weight:bold">
+                                Brag Box
+                            </label>
+                            <br />
+
+                            CareStar: Another great production application migration for the CareStar project team. It was completed March 25-26th. This migration went more smoothly because of the knowledge they learned from the last one. This system was larger than the last one. Keep up the amazing work.
+                            <br />
+                            Enosix: Another successful go-live with Enosix was completed in early April, this time for Ringier. We created some custom web application pages that use the SAP and Salesforce integration technology. After a late night of issue fixes, the team made it work. Thank you and congrats to Cyrus Brunner, Don Gill and Dimas Maulana.
+                            <br />
+                            HorseCo: Michael Timko swooped in and developed some fixes for HorseCo. They were struggling to fix some app features for a recent go live. The main issue was Auth0 sign in for their native Android app.  Great work Timko.
+                            <br />
+
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <select id="achviTemplate" hidden style="background-color:#3d3c3c; color:white">
+                    <option>Select your Theme</option>
+                    <option value="1">Light Gray</option>
+                    <option value="2">Dark Gray</option>
+                    <option value="3">Light Green</option>
+                    <option value="4">Dark Green</option>
+                </select> <button type="button" id="addAchvi" style="color:white;font-size:8px ; background-color:#808080; height:15px; width:80px" hidden>Add</button>
+                <br />
+                <button type="button" id="btnAchviments" style="color:white;font-size:10px ; background-color:#009900; height:30px; width:100px">Edit Achivments</button>
+                <br />
+                <button type="button" id="btnSaveAchiv" style="color:white;font-size:10px ; background-color:#009900; height:30px; width:100px">Save Achivments</button>
+            </div>
+            <div class="col-xs-4">
+                <div class="row">
+                    <div class="padding eveClass" style="background-color:#A6F277; font-size:20pt;font-weight:bold; font-family:'Tw Cen MT';color:white; height:80px">
+                        August's NewsLetter
+                    </div>
+                    <br />
+                    <div class="col-xs-12 eveClass" id="EveBox">
+                        <div class="LightGrayEvents padding" id="events">
+                            <label style="font-family:'Tw Cen MT'; font-size:18px;color:#009900; font-weight:bold">
+                                Welcome to SDS
+                            </label>
+                            <br />
+                            Welcome to the following new staff:
+                            <br />
+                            Chandrakant Shetty as an Application Developer at CareSource.
+                            <br />
+                            Kiran Bezawada as a Developer in house.
+                            <br />
+                            Mary Schock as a High-Tech Anthropologist in house.
+                            <br />
+                            Rachel Kingswood as a Jr. Developer in house.
+                            <br />
+                            John Derr as an Application Developer at CareSource
+                            <br />
+                            Click each name to view and connect with these new staff members on LinkedIn.
+                            <br />
+
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <select id="eventTemplate" hidden style="background-color:#3d3c3c; color:white">
+                    <option>Select your Theme</option>
+                    <option value="5">Light Gray</option>
+                    <option value="6">Dark Gray</option>
+                    <option value="7">Light Green</option>
+                    <option value="8">Dark Green</option>
+                </select><button type="button" id="addEvent" style="color:white;font-size:8px ; background-color:#808080; height:15px; width:80px" hidden>Add</button>
+                <br />
+                <button type="button" id="btnEvents" style="color:white;font-size:10px ; background-color:#009900; height:30px; width:100px">Edit Events</button>
+                <br />
+                <button type="button" id="btnSaveEvents" style="color:white;font-size:10px ; background-color:#009900; height:30px; width:100px">Save Events</button>
+            </div>
+        </div>
+    </div>
+    <script src="~/bundles/jquery"></script>
+    <script type="text/javascript" src="~/Scripts/EditBoxes.js"></script>
+    <script type="text/javascript" src="~/Scripts/AddBoxes.js"></script>
+    <script type="text/javascript" src="~/Scripts/SaveBoxes.js"></script>
+    <script type="text/javascript" src="~/Scripts/DeleteBoxes.js"></script>
+</body>
+</html>

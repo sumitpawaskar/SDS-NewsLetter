@@ -1,0 +1,58 @@
+﻿body {
+}
+
+
+.padding {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.LightGrayAchivments {
+    text-wrap: normal;
+    background-color: #bdb7b7;
+    color: black;
+    font-size: 12px;
+    font-family: Tw Cen MT;
+    font-weight: 500;
+    word-spacing: 1px;
+    word-wrap: break-word;
+    line-height: 22px;
+}
+
+.DarkGrayAchivments {
+    text-wrap: normal;
+    background-color: #808080;
+    color: black;
+    font-size: 12px;
+    font-family: Tw Cen MT;
+    font-weight: 500;
+    word-spacing: 1px;
+    word-wrap: break-word;
+    line-height: 22px;
+}
+
+.LightGreenAchivments {
+    text-wrap: normal;
+    background-color: #70f37b;
+    color: black;
+    font-size: 12px;
+    font-family: Tw Cen MT;
+    font-weight: 500;
+    word-spacing: 1px;
+    word-wrap: break-word;
+    line-height: 22px;
+}
+
+.DarkGreenAchivments {
+    text-wrap: normal;
+    background-color: #1f9b06;
+    color: black;
+    font-size: 12px;
+    font-family: Tw Cen MT;
+    font-weight: 500;
+    word-spacing: 1px;
+    word-wrap: break-word;
+    line-height: 20px;
+}

@@ -1,0 +1,50 @@
+﻿body {
+}
+
+.LightGrayEvents {
+    text-wrap: normal;
+    background-color: #bdb7b7;
+    color: black;
+    font-size: 12px;
+    font-family: Tw Cen MT;
+    font-weight: 500;
+    word-spacing: 1px;
+    word-wrap: break-word;
+    line-height: 22px;
+}
+
+.DarkGrayEvents {
+    text-wrap: normal;
+    background-color: #808080;
+    color: black;
+    font-size: 12px;
+    font-family: Tw Cen MT;
+    font-weight: 500;
+    word-spacing: 1px;
+    word-wrap: break-word;
+    line-height: 22px;
+}
+
+.LightGreenEvents {
+    text-wrap: normal;
+    background-color: #70f37b;
+    color: black;
+    font-size: 12px;
+    font-family: Tw Cen MT;
+    font-weight: 500;
+    word-spacing: 1px;
+    word-wrap: break-word;
+    line-height: 22px;
+}
+
+.DarkGreenEvents {
+    text-wrap: normal;
+    background-color: #1f9b06;
+    color: black;
+    font-size: 12px;
+    font-family: Tw Cen MT;
+    font-weight: 500;
+    word-spacing: 1px;
+    word-wrap: break-word;
+    line-height: 22px;
+}
